@@ -1,0 +1,47 @@
+header {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 140px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#logo {
+    margin-top: 30px;
+    width: 300px;
+}
+
+#digitato {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    width: 400px;
+    height: 100px;
+    font-size: 80px;
+    background-color: green;
+    margin: 20px 0px;
+    text-align: end;
+}
+
+#calcolatrice {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 400px;
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+    margin: 40px auto;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+}
+
+button:active {
+    transform: translate(4px, 4px);
+}
+
